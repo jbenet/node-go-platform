@@ -24,6 +24,9 @@ switch (process.arch) {
   case "arm":
     env.GOARCH = "arm"
     break
+  case "arm64":
+    env.GOARCH = "arm64"
+    break
 }
 
 module.exports = env
